@@ -1,0 +1,247 @@
+{
+    "id": "VistA",
+    "name": "VistA",
+    "data": {},
+    "children": [
+    {
+        "id": "Infrastructure",
+        "name": "Infrastructure",
+        "data": {},
+        "children": [
+        {
+            "id": "Application Infrastructure",
+            "name": "Application Infrastructure",
+            "data": {},
+            "children": [
+            {
+                "id": "Kernel",
+                "name": "Kernel",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Patch Module",
+                "name": "Patch Module",
+                "data": {
+                    "description": ""
+                },
+                "children": []
+            },
+            {
+                "id": "FileMan",
+                "name": "FileMan",
+                "data": {
+                    "description": "FileMan is the DBMS VistA runs on"
+                },
+                "children": []
+            },
+            {
+                "id": "MailMan",
+                "name": "MailMan",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "RPC Broker",
+                "name": "RPC Broker",
+                "data": {},
+                "children": [
+                {
+                    "id": "M-to-M Broker",
+                    "name": "M-to-M Broker",
+                    "data": [],
+                    "children": []
+                }
+                ]
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "id": "Health Provider Systems",
+        "name": "Health Provider Systems",
+        "data": {},
+        "children": [
+        {
+            "id": "Patient Service Delivery",
+            "name": "Patient Service Delivery",
+            "data": {},
+            "children": [
+            {
+                "id": "Dietetics",
+                "name": "Dietetics",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Medicine",
+                "name": "Medicine",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Dental",
+                "name": "Dental",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Social Work",
+                "name": "Social Work",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Clinical Reminders",
+                "name": "Clinical Reminders",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Women's Health",
+                "name": "Women's Health",
+                "data": {},
+                "children": []
+            }
+            ]
+        },
+        {
+            "id": "Pharmacy",
+            "name": "Pharmacy",
+            "data": {},
+            "children": [
+            {
+                "id": "Auto Replenishment Ward Stock",
+                "name": "Auto Replenishment Ward Stock",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Barcode Medication Administration",
+                "name": "Barcode Medication Administration",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Controlled Substances",
+                "name": "Controlled Substances",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Drug Accountability",
+                "name": "Drug Accountability",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Outpatient Pharmacy",
+                "name": "Outpatient Pharmacy",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Inpatient Pharmacy",
+                "name": "Inpatient Pharmacy",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Pharmacy Benefits Management",
+                "name": "Pharmacy Benefits Management",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Pharmacy Data Management",
+                "name": "Pharmacy Data Management",
+                "data": {},
+                "children": []
+            }
+            ]
+        },
+        {
+            "id": "Laboratory",
+            "name": "Laboratory",
+            "data": {},
+            "children": [
+            {
+                "id": "Automated Lab Instruments",
+                "name": "Automated Lab Instruments",
+                "data": {},
+                "children": []
+            },
+            {
+                "id": "Lab Service",
+                "name": "Lab Service",
+                "data": {},
+                "children": []
+            }
+            ]
+        }
+        ]
+    },
+    {
+        "id": "Safety Quality",
+        "name": "Safety & Quality",
+        "data": {},
+        "children": [
+        {
+            "id": "Adverse Reaction Tracking",
+            "name": "Adverse Reaction Tracking",
+            "data": {},
+            "children": []
+        },
+        {
+            "id": "Clinical Monitoring System",
+            "name": "Clinical Monitoring System",
+            "data": {},
+            "children": []
+        },
+        {
+            "id": "Incident Reporting",
+            "name": "Incident Reporting",
+            "data": {},
+            "children": []
+        },
+        {
+            "id": "Occurrence Screen",
+            "name": "Occurrence Screen",
+            "data": {},
+            "children": []
+        },
+        {
+            "id": "Patient Representative",
+            "name": "Patient Representative",
+            "data": {},
+            "children": []
+        },
+        {
+            "id": "QM Integration",
+            "name": "QM Integration",
+            "data": {},
+            "children": []
+        },
+        {
+            "id": "Survey Generator",
+            "name": "Survey Generator",
+            "data": {},
+            "children": []
+        }
+        ]
+    },
+    {
+        "id": "Management Functions",
+        "name": "Management Functions",
+        "data": {},
+        "children": []
+    },
+    {
+        "id": "Enrollment",
+        "name": "Enrollment",
+        "data": {},
+        "children": []
+    }
+    ]
+}
