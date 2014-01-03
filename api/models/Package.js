@@ -4,6 +4,8 @@
  * @module      :: Model
  * @description :: Represents a package
  * @docs		:: TODO
+ * @copyright:: 2014 KRM Associates, Inc.
+ * @developer:: Christopher Edwards
  */
 
 module.exports = {

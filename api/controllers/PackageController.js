@@ -13,6 +13,8 @@
  *                 NOTE: The code you write here supports both HTTP and Socket.io automatically.
  *
  * @docs        :: http://sailsjs.org/#!documentation/controllers
+ * @copyright:: 2014 KRM Associates, Inc.
+ * @developer:: Christopher Edwards
  */
 
 module.exports = {

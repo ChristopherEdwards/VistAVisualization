@@ -1,8 +1,8 @@
 {
     "name": "VistAVisualization",
     "private": true,
-    "version": "0.0.0",
-    "description": "a Sails application",
+    "version": "0.0.1",
+    "description": "An application to manage VistA/RPMS/M package registrations, commonly referred to as a DBA database.",
     "dependencies": {
         "sails": "0.9.8",
         "grunt": "0.4.1",

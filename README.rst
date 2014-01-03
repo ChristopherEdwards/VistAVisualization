@@ -1,5 +1,8 @@
 . title: VistA Visualization
 
+.. role:: usertype
+    :class: usertype
+
 ===================
 VistA Visualization
 ===================
@@ -12,33 +15,38 @@ can be installed in a VistA instance.
 Purpose
 -------
 
-The current plan involves creating a database which contains all of the
-registered VistA packages from anywhere including their namespace and
-numberspace and associated metadata. The webapp will be driven by node.js and
-a nosql database (probably an M/FileMan file at some point), currently a
-mongodb is used.
+This tool aims to make the process of managing package registrations easier for
+DBA's that are in charge of M namespace/numberspaces. Also, integrated into the
+tool is a visualization tool to be able to explore all of the packages in the
+database by category.
+
+Eventually, this can be integrated with documentation, source code, and source
+code visualization tools so it becomes the central repository for information
+regarding VistA/RPMS/M packages.
 
 --------------------
 Installation/Running
 --------------------
 
-The pages are currently designed to be ran on a regular webserver. For convience
-a minimal node server is included as server.js and requires connect to be
-installed.
+This application is built with `sails`_ and `node.js`_.
 
-Webserver install:
-Copy all files to the root of the webserver.
+The `sails website`_ will instruct you on how to install the framework
+and node.js on your machine. You can stop at creating a new sails project.
 
-Node.js install:
-Install node.js
-npm install connect
-Make sure you are in the root of this repository.
-node server.js
+To run the server in development mode type:
 
-Server will run on http://localhost:8080
+.. parsed-literal::
+
+    $ :usertype:`sails lift`
+
+Server will run on http://localhost:1337
 
 -----
 Links
 -----
 
 * KRM Associates, Inc.: http://krminc.com
+
+.. _`sails`: http://sailsjs.org/
+.. _`node.js`: http://nodejs.org/
+.. _`sails website`: http://sailsjs.org/#!documentation/new-to-nodejs
