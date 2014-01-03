@@ -28,13 +28,30 @@
     -->
 
     <!--STYLES-->
+    <link rel="stylesheet" href="/linker/styles/bootstrap.css">
+    <link rel="stylesheet" href="/linker/styles/custom.css">
     <!--STYLES END-->
   </head>
 
   <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">VistA Visualization</a>
+        </div>
+    </div>
+
     <%- body %>
 
-
+    <div class="container">
+        <hr>
+        <footer class="footer">
+            <div class="pull-right">
+                <a href="http://www.krminc.com/">KRM Associates, Inc.</a>
+                <div>Developed for <a href="http://www.osehra.org/">Open Source Electronic Health Record Agent (OSEHRA)</a></div>
+            </div>
+        </footer>
+    </div>
 
     <!--
         Client-side Templates
@@ -58,6 +75,7 @@
     -->
 
     <!--TEMPLATES-->
+    
     <!--TEMPLATES END-->
 
 
@@ -70,7 +88,7 @@
       on the client using a solution like AMD (RequireJS).  Or, if you like, you can 
       take advantage of Sails' boilerplate asset management.
 
-      By default, filesin your `assets/linker/js` folder are included here
+      By default, files in your `assets/linker/js` folder are included here
       automatically.  Both JavaScript (.js) and CoffeeScript (.coffee) are supported.
       In production, your scripts will be minified and concatenated into a single file.
       
@@ -84,6 +102,11 @@
     -->
 
     <!--SCRIPTS-->
+    <script src="/linker/js/socket.io.js"></script>
+    <script src="/linker/js/sails.io.js"></script>
+    <script src="/linker/js/app.js"></script>
+    <script src="/linker/js/jquery-1.10.2.js"></script>
+    <script src="/linker/js/bootstrap.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>

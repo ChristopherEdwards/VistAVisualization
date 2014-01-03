@@ -1,0 +1,10 @@
+<form action="/package/create" method="post" class="form-group">
+    <h2>Add Package Definition</h2>
+
+    <input type="text" class="form-control" placeholder="Official Name" name="OfficialName">
+    <input type="text" class="form-control" placeholder="Primary Namespace" name="PrimaryNamespace">
+    <input type="text" class="form-control" placeholder="Category" name="Category">
+    <br />
+    <input type="submit" class="btn btn-lg btn-primary btn-block" value="Add Package">
+    <input type="hidden" name="_csrf" value="<%= _csrf %>">
+</form>
