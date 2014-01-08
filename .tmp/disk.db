@@ -1,0 +1,162 @@
+{
+  "data": {
+    "package": [
+      {
+        "OfficialName": "Kernel",
+        "PrimaryNamespace": "XU",
+        "Category": "Infrastructure",
+        "createdAt": "2014-01-02T16:26:53.253Z",
+        "updatedAt": "2014-01-02T16:26:53.253Z",
+        "id": 1
+      },
+      {
+        "OfficialName": "VA FileMan",
+        "PrimaryNamespace": "DI",
+        "Category": "Infrastructure",
+        "createdAt": "2014-01-03T01:08:39.645Z",
+        "updatedAt": "2014-01-06T16:08:23.562Z",
+        "id": 2,
+        "AdditionalNamespace": [
+          {
+            "Namespace": "DD"
+          },
+          {
+            "Namespace": "DM"
+          },
+          {
+            "Namespace": "TEMP"
+          }
+        ]
+      },
+      {
+        "OfficialName": "Dental",
+        "PrimaryNamespace": "DENT",
+        "Category": "Patient Service Delivery",
+        "createdAt": "2014-01-03T03:01:39.953Z",
+        "updatedAt": "2014-01-06T18:06:52.357Z",
+        "id": 3,
+        "AdditionalNamespace": [
+          {
+            "Namespace": "DD"
+          },
+          {
+            "Namespace": "DM"
+          },
+          {
+            "Namespace": "TEMP"
+          }
+        ]
+      },
+      {
+        "OfficialName": "Dietetics",
+        "PrimaryNamespace": "FH",
+        "Category": "Patient Service Delivery",
+        "createdAt": "2014-01-03T13:13:46.919Z",
+        "updatedAt": "2014-01-03T13:13:46.919Z",
+        "id": 4
+      },
+      {
+        "OfficialName": "Medicine",
+        "PrimaryNamespace": "MC",
+        "Category": "Patient Service Delivery",
+        "createdAt": "2014-01-03T13:14:11.252Z",
+        "updatedAt": "2014-01-03T13:14:11.252Z",
+        "id": 5
+      },
+      {
+        "OfficialName": "Social Work",
+        "PrimaryNamespace": "SOW",
+        "Category": "Patient Service Delivery",
+        "createdAt": "2014-01-03T13:14:34.403Z",
+        "updatedAt": "2014-01-03T13:14:34.403Z",
+        "id": 6
+      },
+      {
+        "OfficialName": "MailMan",
+        "PrimaryNamespace": "XM",
+        "Category": "Infrastructure",
+        "createdAt": "2014-01-03T13:15:25.758Z",
+        "updatedAt": "2014-01-03T13:15:25.758Z",
+        "id": 7
+      },
+      {
+        "OfficialName": "Automated Lab Instruments",
+        "PrimaryNamespace": "LA",
+        "Category": "Laboratory",
+        "createdAt": "2014-01-03T20:19:37.559Z",
+        "updatedAt": "2014-01-03T20:19:37.559Z",
+        "id": 8
+      },
+      {
+        "OfficialName": "Lab Service",
+        "PrimaryNamespace": "LR",
+        "Category": "Laboratory",
+        "createdAt": "2014-01-03T20:19:57.797Z",
+        "updatedAt": "2014-01-03T20:19:57.797Z",
+        "id": 9
+      },
+      {
+        "OfficialName": "Mental Health",
+        "PrimaryNamespace": "YS",
+        "Category": "Patient Service Delivery",
+        "createdAt": "2014-01-06T15:46:23.712Z",
+        "updatedAt": "2014-01-06T15:46:23.712Z",
+        "id": 10
+      },
+      {
+        "OfficialName": "Problem List",
+        "PrimaryNamespace": "GMPL",
+        "Category": "Patient Care Data",
+        "createdAt": "2014-01-06T18:04:47.977Z",
+        "updatedAt": "2014-01-06T18:04:47.977Z",
+        "id": 11
+      },
+      {
+        "OfficialName": "Oncology",
+        "PrimaryNamespace": "ONC",
+        "Category": "Health Provider Systems",
+        "createdAt": "2014-01-07T15:54:29.028Z",
+        "updatedAt": "2014-01-07T15:54:29.028Z",
+        "id": 12
+      }
+    ]
+  },
+  "schema": {
+    "package": {
+      "OfficialName": {
+        "type": "string"
+      },
+      "AlternateName": {
+        "type": "json"
+      },
+      "PrimaryNamespace": {
+        "type": "string"
+      },
+      "AdditionalNamespace": {},
+      "ExcludedNamespace": {},
+      "Numberspace": {
+        "type": "json"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "defaultsTo": "AUTO_INCREMENT",
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime",
+        "default": "NOW"
+      },
+      "updatedAt": {
+        "type": "datetime",
+        "default": "NOW"
+      }
+    }
+  },
+  "counters": {
+    "package": {
+      "id": 12
+    }
+  }
+}
