@@ -42,14 +42,18 @@ module.exports = {
           "required": true
       },
       "AdditionalNamespace":
-          [
-              {
-                  "Namespace":
-                  {
-                      "type": "string"
-                  }
-              }
-          ],
+      {
+          "type": "json"
+      },
+      // for when associations are done in sails for a strongly typed model
+//          [
+//              {
+//                  "Namespace":
+//                  {
+//                      "type": "string"
+//                  }
+//              }
+//          ],
       "ExcludedNamespace":
           [
               {
